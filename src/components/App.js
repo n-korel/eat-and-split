@@ -73,6 +73,7 @@ export default function App() {
         <FormSplitBill
           selectedFriend={selectedFriend}
           onSplitBill={handleSplutBill}
+          key={selectedFriend.id}
         />
       )}
     </div>
